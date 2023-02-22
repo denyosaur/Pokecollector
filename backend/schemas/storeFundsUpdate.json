@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "User Funds",
+    "description": "User currency amount to be updated",
+    "properties": {
+        "funds": {
+            "description": "funds to be added or removed",
+            "type": "number",
+            "minimum": 0
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "funds"
+    ]
+}

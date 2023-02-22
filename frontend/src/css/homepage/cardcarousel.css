@@ -1,0 +1,16 @@
+.CardCarousel {
+    display:flex;
+    flex-direction: row;
+    margin-bottom:2rem;
+}
+
+.CardCarousel-card {
+    display:flex;
+    flex-direction: row;
+    overflow:hidden;
+    width:100%;
+}
+
+.CardCarousel-loading {
+    height:100%;
+}

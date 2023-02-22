@@ -1,0 +1,10 @@
+.AdminSetsColumn {
+    display:flex;
+    flex-direction: column;
+    overflow:scroll;
+    width:20%;
+}
+
+.AdminSetsColumn-set:hover {
+    text-decoration: underline;
+}

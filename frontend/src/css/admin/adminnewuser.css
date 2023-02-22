@@ -1,0 +1,41 @@
+.AdminNewUser form {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+}
+
+.AdminNewUser-input{
+    text-align:left;
+    width:12%
+}
+.AdminNewUser-input label{
+    width:0%
+}
+
+.AdminNewUser-input input{
+    text-align:center;
+    width:99%
+}
+
+.AdminNewUser-submit {
+    align-items: left;
+    width:5%;
+}
+
+.AdminNewUser-submit button{
+    font-size:22px;
+    width:3vw;
+    max-height:35px;
+    min-width:40px;
+    border-radius: 60px;
+    height:40px;
+    color:white;
+    background-color: #0275d8;
+    border: 0;
+}
+
+.AdminNewUser-submit button:hover{
+    background-color: #0088ff;
+}

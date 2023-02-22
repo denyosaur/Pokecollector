@@ -1,0 +1,28 @@
+.Admin-container {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:800px;
+    padding-top:2vw;
+}
+
+.Admin-AdminBar {
+    width:20vw;
+    max-width:20%;
+}
+
+.Admin-main {
+    height:90vh;
+    width:100%;
+    overflow: scroll;
+}
+
+.Admin-Users {
+    width:100%;
+    height:90vh;
+}
+
+.Admin-cards {
+    width:100%;
+    height:90vh;
+}

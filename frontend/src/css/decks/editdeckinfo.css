@@ -1,0 +1,9 @@
+.EditDeckInfo {
+    height:50px;
+}
+
+.EditDeckInfo-info {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

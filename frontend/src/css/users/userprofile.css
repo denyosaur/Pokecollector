@@ -1,0 +1,116 @@
+.Profile {
+    padding-top:2vw;
+}
+.Profile-header {
+    text-align: center;
+    font-size: 28px;
+}
+
+.Profile form{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.Profile form input {
+    width:100%;
+}
+
+.Profile-col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.Profile-col-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.Profile-col-45 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+}
+  
+.Profile-col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.Profile-addfunds {
+    border-radius:50px;
+    text-align: center;
+    width:100%;
+    height:30px;
+    background-color:#0275d8;
+    color:white;
+}
+
+.Profile-addfunds:hover {
+    background-color:#0088ff;
+    cursor:pointer;
+}
+
+.Profile-inputgroup{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.Profile-newpwwarning {
+    font-size: 12px;
+    font-weight:bold;
+    color:red;
+}
+
+.Profile-submitbutton button {
+    display: block;
+    border-radius:50px;
+    width:15vw;
+    max-width:400px;
+    height:40px;
+    background-color:#0275d8;
+    color:white;
+    border: 0;
+}
+
+.Profile-button-disabled {
+    filter:grayscale(100)
+}
+
+.Profile-submitbutton button:hover{
+    background-color:#0088ff;
+}
+
+.Profile-addFundsPopup {
+    position:absolute;
+    width:20vw;
+    min-width:300px;
+    right:30%;
+    bottom:50%;
+}
+
+.Profile-linebreak {
+    width:100%;
+
+}
+
+@media screen and (max-width: 900px) {
+    .Profile-col-25, .Profile-col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .Profile-col-30 {
+        width: 50%;
+    }
+    .Profile-button {
+        width:100%;
+    }
+    .Profile-addFundsPopup {
+        position:absolute;
+        width:34vw;
+    }
+  }

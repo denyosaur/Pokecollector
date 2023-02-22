@@ -1,0 +1,33 @@
+.Homepage-container {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.Homepage-maincarousel{
+    height:27rem;
+}
+
+@media only screen and (min-width: 600px) { /* Small devices */
+
+}
+
+@media only screen and (min-width: 768px) { /* Medium devices */
+
+}
+
+
+@media only screen and (min-width: 992px) { /* Large devices */
+    .Homepage-maincarousel{
+        height:32rem;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) { /* Extra large devices */
+    .Homepage-maincarousel{
+        height:42rem;
+    }
+}

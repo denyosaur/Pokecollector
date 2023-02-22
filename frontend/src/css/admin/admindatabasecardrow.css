@@ -1,0 +1,39 @@
+.AdminDatabaseCardRow {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.AdminDatabaseCardRow div {
+    width:15%;
+    text-align: left;
+    font-size:calc(12px + .3vw);
+}
+
+.AdminDatabaseCardRow-card img{
+    height:75px;
+    width:auto;
+}
+
+.AdminDatabaseCardRow-setlogo img {
+    height:50px;
+    width:auto;
+}
+
+.AdminDatabaseCardRow-delete button{
+    font-size:22px;
+    width:3vw;
+    max-height:35px;
+    min-width:40px;
+    border-radius: 60px;
+    height:40px;
+    color:white;
+    background-color: #d9534f;
+    border: 0;
+}
+
+.AdminDatabaseCardRow-delete button:hover{
+    background-color: #ff605b;
+}

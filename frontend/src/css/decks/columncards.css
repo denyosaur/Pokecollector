@@ -1,0 +1,36 @@
+.ColumnCard { 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:50px;
+    min-width:250px;
+    width:95%;
+    margin-left:5px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+}
+
+.ColumnCard-image {
+    width:75px;
+    height:100%;
+    overflow:hidden;
+}
+
+.ColumnCard-image img {
+    border-radius: 5px;
+    width:85px;
+    margin: -12px 0 0 -6px;
+}
+
+.ColumnCard-name {
+    width:40%;
+}
+
+.ColumnCard-setLogo{
+width:40%;
+}
+
+.ColumnCard-setLogo img {
+    width:40px;
+} 

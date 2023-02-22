@@ -1,0 +1,20 @@
+.AdminUserColumns{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.AdminUserColumns-info {
+    width:15%;
+    text-align: left;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.AdminUserColumns-delete {
+    width:5%;
+    font-weight:bold;
+    text-decoration: underline;
+}

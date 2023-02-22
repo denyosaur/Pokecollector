@@ -1,0 +1,71 @@
+footer {
+    display:flex;
+    justify-content:center;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:#D9D9D9;
+    color:rgb(71, 71, 71);
+    height:8rem;
+    width:100vw;
+    font-size:1em;
+    z-index: 10;
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.5); 
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.Footer-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 600px) { /* Small devices */
+    .Footer {
+        height:5rem;
+        font-size:.9em;
+    }
+
+    .Footer-container {
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) { /* Medium devices */
+    .Footer-container {
+        justify-content:space-evenly;
+        width: 750px;
+        font-size:1.1em;
+    }
+}
+
+
+@media only screen and (min-width: 992px) { /* Large devices */
+    .Footer-container {
+        justify-content:space-between;
+        width: 970px;
+        font-size:1.2em;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) { /* Extra large devices */
+    .Footer {
+        height: 3.2rem;
+    }
+    .Footer-container {
+        justify-content:space-between;
+        width: 1170px;
+
+    }
+}

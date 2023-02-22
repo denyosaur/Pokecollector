@@ -1,0 +1,119 @@
+.MiniCard {
+    margin:25px;
+    border-radius:10px;
+}
+
+.MiniCard-container {
+    height:300px;
+    width:150px;
+    box-shadow:0 0 10px rgba(0,0,0,0.6);
+    background-color:rgb(241, 243, 248);
+    border-radius:5px;
+}
+
+.MiniCard-image{
+    height:206px;
+}
+
+.MiniCard-image img{
+    width:150px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+    box-shadow:0 8px 6px -6px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.MiniCard-info {
+    display:flex;
+    flex-wrap: wrap;
+    margin:4px;
+}
+
+.MiniCard-info-col{
+    width:50%;
+}
+
+.MiniCard-info-price {
+    position:relative;
+    left:2px;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.MiniCard-addtocart button {
+    position:relative;
+    height:42px;
+    width:42px;
+    bottom:20px;
+    left:45px;
+    border:0;
+    border-radius:50px;
+    background-color:#0275d8;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    z-index: 4;
+}
+
+.MiniCard-addtocart i{
+    font-size:20px;
+    color:white;
+    background-color:#0275d8;
+    z-index:3;
+}
+
+.MiniCard-info-button button {
+    position:relative;
+    height:42px;
+    width:42px;
+    bottom:20px;
+    left:45px;
+    border:0;
+    border-radius:50px;
+    background-color:#5cb85c;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    z-index: 4;
+    cursor:'pointer';
+}
+
+.MiniCard-info-button i{
+    font-size:20px;
+    color:white;
+    background-color:#5cb85c;
+    z-index:2;
+    cursor:'pointer';
+}
+
+.MiniCard-info-header span{
+    white-space: nowrap;
+    font-size:18px;
+    font-weight:bold;
+    
+}
+
+.MiniCard-info-setname{
+    position:relative;
+    white-space: nowrap;
+    bottom:3px;
+    font-size:12px;
+}
+
+.MiniCard-info-rarity {
+    position:relative;
+    bottom:5px;
+    font-size:14px;
+}
+
+.MiniCard-info-setlogo{
+    position:relative;
+    top:8px;
+    left:20px;
+}
+
+.MiniCard-info-setlogo img{
+    bottom:14px;
+    max-width:40px;
+    max-height:40px;
+
+}

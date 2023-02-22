@@ -1,0 +1,8 @@
+.DeckCardLibrary{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    height:750px;
+    overflow: scroll;
+}

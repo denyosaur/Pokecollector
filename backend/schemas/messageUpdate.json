@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Update Message",
+    "description": "Update message related to a specific trade",
+    "properties": {
+        "editedMsg": {
+            "description": "Message to update",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "editedMsg"
+    ]
+}

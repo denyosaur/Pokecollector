@@ -1,0 +1,16 @@
+.AdminDatabaseCardColumn {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.AdminDatabaseCardColumn div{
+    width:15%;
+    text-align: left;
+    font-weight:bold;
+    padding-bottom:2vh;
+    text-decoration: underline;
+    font-size:calc(12px + .5vw);
+}

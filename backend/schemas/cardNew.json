@@ -1,0 +1,181 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Card Schema",
+    "description": "Schema for new cards pulled from pokemon tcgh API.",
+    "default": {},
+    "required": [
+        "id",
+        "name",
+        "superType",
+        "subtype",
+        "hp",
+        "types",
+        "evolvesTo",
+        "rules",
+        "attacks",
+        "weaknesses",
+        "resistances",
+        "retreatCost",
+        "convertedRetreatCost",
+        "setName",
+        "setLogo",
+        "number",
+        "artist",
+        "rarity",
+        "nationalPokedexNumbers",
+        "legalities",
+        "images",
+        "tcgplayer",
+        "prices"
+    ],
+    "properties": {
+        "id": {
+            "$id": "#/properties/id",
+            "type": "string",
+            "title": "The id schema"
+        },
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "title": "The name schema"
+        },
+        "superType": {
+            "$id": "#/properties/superType",
+            "type": "string",
+            "title": "The superType schema"
+        },
+        "subtypes": {
+            "$id": "#/properties/subtypes",
+            "type": "array",
+            "title": "The subtypes schema",
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/subtypes/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/subtypes/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema"
+                    }
+                ]
+            }
+        },
+        "hp": {
+            "$id": "#/properties/hp",
+            "type": "string",
+            "title": "The hp schema"
+        },
+        "types": {
+            "$id": "#/properties/types",
+            "type": "array",
+            "title": "The types schema",
+            "additionalItems": true
+        },
+        "evolvesTo": {
+            "$id": "#/properties/evolvesTo",
+            "type": "array",
+            "title": "The evolvesTo schema"
+        },
+        "rules": {
+            "$id": "#/properties/rules",
+            "type": "array",
+            "title": "The rules schema"
+        },
+        "attacks": {
+            "$id": "#/properties/attacks",
+            "type": "array",
+            "title": "The attacks schema",
+            "additionalItems": true
+        },
+        "weaknesses": {
+            "$id": "#/properties/weaknesses",
+            "type": "array",
+            "title": "The weaknesses schema",
+            "additionalItems": true
+        },
+        "resistances": {
+            "$id": "#/properties/resistances",
+            "type": "array",
+            "title": "The resistances schema",
+            "additionalItems": true
+        },
+        "retreatCost": {
+            "$id": "#/properties/retreatCost",
+            "type": "array",
+            "title": "The retreatCost schema",
+            "additionalItems": true
+        },
+        "convertedRetreatCost": {
+            "$id": "#/properties/convertedRetreatCost",
+            "type": "integer",
+            "title": "The convertedRetreatCost schema"
+        },
+        "setName": {
+            "$id": "#/properties/setName",
+            "type": "string",
+            "title": "The setName schema"
+        },
+        "setLogo": {
+            "$id": "#/properties/setLogo",
+            "type": "string",
+            "title": "The setLogo schema"
+        },
+        "number": {
+            "$id": "#/properties/number",
+            "type": "string",
+            "title": "The number schema"
+        },
+        "artist": {
+            "$id": "#/properties/artist",
+            "type": "string",
+            "title": "The artist schema"
+        },
+        "rarity": {
+            "$id": "#/properties/rarity",
+            "type": "string",
+            "title": "The rarity schema"
+        },
+        "nationalPokedexNumbers": {
+            "$id": "#/properties/nationalPokedexNumbers",
+            "type": "array",
+            "title": "The nationalPokedexNumbers schema",
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/nationalPokedexNumbers/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/nationalPokedexNumbers/items/anyOf/0",
+                        "type": "integer",
+                        "title": "The first anyOf schema"
+                    }
+                ]
+            }
+        },
+        "legalities": {
+            "$id": "#/properties/legalities",
+            "type": "string",
+            "title": "The legalities schema",
+            "additionalProperties": true
+        },
+        "images": {
+            "$id": "#/properties/images",
+            "type": "string",
+            "title": "The images schema",
+            "additionalProperties": true
+        },
+        "tcgplayer": {
+            "$id": "#/properties/tcgplayer",
+            "type": "string",
+            "title": "The tcgplayer schema",
+            "additionalProperties": true
+        },
+        "prices": {
+            "$id": "#/properties/prices",
+            "type": "numeric",
+            "title": "The prices schema"
+        }
+    },
+    "additionalProperties": true
+}

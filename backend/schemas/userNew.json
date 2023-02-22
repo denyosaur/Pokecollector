@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "title": "New User Registration from User",
+    "description": "New user information made by user",
+    "type": "object",
+    "properties": {
+        "username": {
+            "description": "username",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+        },
+        "password": {
+            "description": "password",
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 20
+        },
+        "firstName": {
+            "description": "first name",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+        },
+        "lastName": {
+            "description": "last name",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+        },
+        "email": {
+            "description": "email",
+            "type": "string",
+            "minLength": 6,
+            "maxLength": 60,
+            "format": "email"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "username",
+        "firstName",
+        "lastName",
+        "password",
+        "email"
+    ]
+}

@@ -1,0 +1,62 @@
+/* #4484CE - blue
+#D9D9D9 - aluminum(light grey)
+#F9CF00 - yellow
+#F19F4D - tangerine */
+
+.Navbar-section {
+    height:100%;
+    top:0;
+    background-color:#D9D9D9;
+    color:rgb(71, 71, 71);
+    width:100%;
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.5); 
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    z-index: 5;
+}
+
+.Navbar-navigation a {
+    text-decoration: none;
+    color:#6d6d6d;
+    white-space: nowrap;
+    overflow: hidden;
+}
+  
+.Navbar-navigation a:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+
+.active {
+    background-color:#D9D9D9;
+}
+
+.Navbar-auth a {
+    text-decoration: none;
+    color:#6d6d6d;
+}
+  
+.Navbar-auth a:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 600px) { /* Small devices */
+
+}
+
+@media only screen and (min-width: 768px) { /* Medium devices */
+
+}
+
+
+@media only screen and (min-width: 992px) { /* Large devices */
+
+}
+
+
+@media only screen and (min-width: 1200px) { /* Extra large devices */
+
+}

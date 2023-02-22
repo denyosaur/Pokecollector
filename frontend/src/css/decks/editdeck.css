@@ -1,0 +1,55 @@
+.EditDeck {
+    display:flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+}
+.EditDeck-col1 {
+    display:flex;
+    flex-direction: column;
+    width:75%;
+}
+
+.EditDeck-col2 {
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    min-width:300px;
+}
+
+.EditDeck-MyCards {
+    width:100%;
+    min-height:100%;
+}
+
+.EditDeck-column {
+    margin-top:50px;
+    height:100%;
+
+}
+
+.EditDeck-buttons button{
+    font-size:14px;
+    width:49%;
+    height:40px;
+    color:white;
+    border: 0;
+}
+.EditDeck-save {
+    float:left;
+    border-radius:50px 0 0 50px;
+    background-color:#0275d8;
+}
+
+.EditDeck-cancel {
+    float:right;
+    border-radius:0 50px 50px 0;
+    background-color:#d9534f;
+}
+
+.EditDeck-save:hover {
+    background-color:#0088ff;
+}
+.EditDeck-cancel:hover {
+    background-color:#ff6761;
+}

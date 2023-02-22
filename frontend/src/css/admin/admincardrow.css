@@ -1,0 +1,42 @@
+.AdminCardRow{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.AdminCardRow div {
+    width:15%;
+    text-align: left;
+    font-size:calc(12px + .3vw);
+}
+
+.AdminCardRow-card img{
+    height:75px;
+    width:auto;
+}
+
+.AdminCardRow-setlogo img {
+    height:auto;
+    width:auto;
+    max-height:50px;
+    max-width:100px;
+}
+
+
+.AdminCardRow-add button{
+    font-size:22px;
+    width:3vw;
+    max-height:35px;
+    min-width:40px;
+    border-radius: 60px;
+    height:40px;
+    color:white;
+    background-color: #0275d8;
+    border: 0;
+}
+
+.AdminCardRow-add button:hover{
+    background-color: #0088ff;
+}

@@ -1,0 +1,53 @@
+.HomepageCardCarousel{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.HomepageCardCarousel-carousel {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+
+.HomepageCardCarousel-button {
+    display:flex;
+    align-items:center;
+}
+
+.HomepageCardCarousel-button i {
+    font-size:3rem;
+    
+    color:rgb(68, 68, 68);
+}
+
+.HomepageCardCarousel-button i:hover {
+    font-size:3rem;
+    color:rgb(104, 104, 104);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 461px) { /* Small devices */
+    /* 2 cards */
+}
+
+@media only screen and (min-width: 600px) { /* Small devices */
+    /* 2 cards */
+}
+
+@media only screen and (min-width: 768px) { /* Medium devices */
+    /* 3 cards */
+}
+
+
+@media only screen and (min-width: 992px) { /* Large devices */
+    /* 4 cards */
+}
+
+
+@media only screen and (min-width: 1200px) { /* Extra large devices */
+    /* 5 cards */
+}

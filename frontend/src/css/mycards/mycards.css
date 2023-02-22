@@ -1,0 +1,79 @@
+.MyCards {
+    display:flex;
+    flex-direction: row;
+    margin-top:1rem;
+}
+
+.MyCards-search{
+    width:15%;
+}
+
+.MyCards-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:85%;
+
+}
+
+
+@media (max-width: 767px) {
+    .MyCards {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .MyCards-search{
+        width:100%;
+    }
+    
+    .MyCards-cards {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width:100%;
+    }
+  }
+
+@media (min-width: 768px) {
+    .MyCards-search{
+        width:35%;
+    }
+    
+    .MyCards-cards {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width:65%;
+    }
+  }
+
+@media (min-width: 992px) {
+    .MyCards-search{
+        width:25%;
+    }
+    
+    .MyCards-cards {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width:75%;
+    }
+  }
+  
+@media (min-width: 1200px) {
+    .MyCards-search{
+        width:20%;
+    }
+    
+    .MyCards-cards {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width:80%;
+    }
+  }

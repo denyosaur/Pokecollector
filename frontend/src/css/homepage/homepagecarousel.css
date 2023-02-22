@@ -1,0 +1,130 @@
+.HomepageCarousel  {
+    position:absolute;
+    height:25rem;
+    left:0;
+    width:100vw;
+    background-color: red;
+}
+
+.carousel-inner {
+    height:100%;
+    width:100%;
+}
+
+.carousel-item {
+    height:100%;
+    width:100%;
+}
+
+.HomepageCarousel-item {
+    height:100%;
+}
+
+.HomepageCarousel-caption {
+    font-size:5vmax;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#CosmicEclipseImage {
+    height:125%;
+    width:auto;
+    object-fit: cover;
+    object-position: -148px 0px; 
+}
+
+#JolteonCardsImage {
+    height:150%;
+    width:100%;
+    object-fit: cover;
+    object-position: 25% 100%;  
+}
+
+#PokemonCardsImage {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    object-position: 100% 50%;  
+}
+
+#PokeballCards {
+    height:150%;
+    width:150%;
+    object-fit: cover;
+    object-position: 30% 50%;  
+}
+
+#Intro-video {
+    width:100%;
+    height:100%;
+}
+
+.carousel-indicators {
+    display:none;
+}
+
+@media only screen and (min-width: 600px) { /* Small devices */
+    #CosmicEclipseImage {
+        height:120%;
+        width:100%;
+        object-position: 100% 60%;  
+    }
+    
+    #JolteonCardsImage {
+        height:100%;
+        width:100%;
+        object-position: 0% 70%;  
+    }
+    
+    #PokemonCardsImage {
+        height:100%;
+        width:100%;
+        object-position: 100% 70%;  
+    }
+    
+    #PokeballCards {
+        height:100%;
+        width:100%;
+        object-position: 100% 70%;  
+    }
+}
+
+@media only screen and (min-width: 768px) { /* Medium devices */
+    #JolteonCardsImage {
+        height:120%;
+        width:100%;
+        object-position: 0% -20px;  
+    }
+
+    #PokeballCards {
+        object-position: 100% 10%;  
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) { /* Large devices */
+    .HomepageCarousel  {
+        height:30rem;
+    }
+    
+    #CosmicEclipseImage {
+        object-position: 100% 0%;  
+    }
+    
+    #JolteonCardsImage {
+        object-position: 100% 70%;  
+    }
+}
+
+
+@media only screen and (min-width: 1200px) { /* Extra large devices */
+    .HomepageCarousel  {
+        height:40rem;
+    }
+    #JolteonCardsImage {
+        height:auto;
+        width:100%;
+        
+        object-position: 50% -50px;  
+    }
+}

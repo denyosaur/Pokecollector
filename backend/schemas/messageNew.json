@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "New Message",
+    "description": "A new message related to a specific trade",
+    "properties": {
+        "message": {
+            "description": "Message from user",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "message"
+    ]
+}

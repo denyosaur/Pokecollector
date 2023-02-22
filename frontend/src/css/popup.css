@@ -1,0 +1,44 @@
+.Popup-formContainer {
+    position:absolute;
+    background-color: white;
+    border-radius: .3rem;
+    width: 50vw;
+    height: 50vh;
+    min-width: 470px;
+    min-height: 400px;
+    max-width: 700px;
+    max-height: 700px;
+    top:20vh;
+    left:30vw;
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+    z-index: 20;
+}
+
+.Popup-background {
+    position:absolute;
+    background-color:#b1b1b1;
+    height:94vh;
+    width:100vw;
+    opacity:.65;
+    filter:grayscale(.95);
+    z-index: 11;
+}
+
+@media (max-width: 560px) {
+    .Popup-formContainer{
+        left:0%;
+        width:100%;
+        height: 70vh;
+        max-height: 900px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .Popup-formContainer{
+        left:18vw
+    }
+  }
+
+  

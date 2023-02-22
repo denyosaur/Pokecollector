@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "New Trades",
+    "description": "A new trade offer created by a user",
+    "properties": {
+        "seller": {
+            "description": "User who made the offer",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 30
+        },
+        "buyer": {
+            "description": "User who receives offer",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 30
+        },
+        "offers": {
+            "description": "Object of offers. Has sellerOffer and buyerOffer",
+            "type": "object",
+            "properties": {
+                "sellerOffer": {
+                    "description": "seller's offer",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "buyerOffer": {
+                    "description": "buyer's offer",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "message": {
+            "description": "Initial message made by seller",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+        }
+    },
+    "required": [
+        "seller",
+        "buyer",
+        "offers"
+    ]
+}

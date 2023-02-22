@@ -1,0 +1,60 @@
+.Login-header {
+    padding-top:30px;
+    text-align: center;
+}
+.Login-agreement{
+    text-align: center;
+}
+
+.Login form {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.Login-form input {
+    margin-bottom:15px;
+    width:100%
+}
+
+.Login-button {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50px;
+    width:100%;
+    height:40px;
+    left:50%;
+    right:50%;
+    background-color:#0275d8;
+    color:white;
+    border: 0;
+    cursor:'pointer';
+}
+
+.Login-button:hover{
+    background-color:#0088ff;
+}
+
+.Login-switchform p{
+    margin-top:15px;
+}
+
+.Login-signup{
+    text-decoration: none;
+    font-weight:bold;
+    color:#0275d8;
+}
+
+.Login-signup:hover{
+    text-decoration: none;
+    color:#0088ff;
+}
+
+.Login-formClose {
+    position:absolute;
+    top:0%;
+    right:0%;
+    width:25px;
+}

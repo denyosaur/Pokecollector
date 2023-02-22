@@ -1,0 +1,15 @@
+.AdminBar {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.AdminBar-item:hover {
+    text-decoration: underline;   
+    cursor: pointer;
+}
+
+.AdminBar-header {
+    font-size: calc(15px + 1.2vw);
+    text-decoration: underline;   
+}

@@ -1,0 +1,78 @@
+.CartItem {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:150px;
+    width:100%;
+    margin-bottom:10px;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.CartItem-image{
+    width:30%;
+}
+
+.CartItem-image img {
+    height:100%;
+    width:auto;
+    border-radius:5px;
+}
+
+.CartItem-info {
+    width:40%;
+}
+
+.CartItem-setName {
+    font-size: calc(13px + .4vw);
+    height:20px;
+}
+
+.CartItem-name {
+    font-size: calc(13px + .8vw);
+    white-space: nowrap;
+    height:35px;
+}
+
+.CartItem-rarity {
+    font-size: calc(13px + .4vw);
+    height:40px;
+}
+
+.CartItem-price {
+    width:20%;
+}
+
+.CartItem-quantity {
+    display:flex;
+    flex-direction: row;
+}
+
+.CartItem-quantity input{
+    width:20%;
+}
+
+.CartItem-remove {
+    display: block;
+    border-radius:50% 0 0 50%;
+    background-color:#0275d8;
+    color:white;
+    border: 0;
+}
+
+.CartItem-remove:hover {
+    background-color:#0088ff;
+}
+
+.CartItem-add {
+    display: block;
+    border-radius:0 50% 50% 0;
+    background-color:#0275d8;
+    color:white;
+    border: 0;
+}
+
+.CartItem-add:hover {
+    background-color:#0088ff;
+}

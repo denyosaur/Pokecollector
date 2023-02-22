@@ -1,0 +1,17 @@
+.DeckCard{
+    width:150px;
+    margin: 5px;
+}
+
+.DeckCard-image-active img{
+    width:150px;
+    height:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.DeckCard-image-inactive img{
+    width:150px;
+    height:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    filter: grayscale(100%);
+}

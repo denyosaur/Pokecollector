@@ -1,0 +1,88 @@
+.CardSearch {
+    width:100%;
+}
+
+.CardSearch-form input {
+    display:block;
+    width:100%;
+    margin: 0 0 20px 0;
+}
+
+.CardSearch-form select {
+    display:block;
+    width:100%;
+    margin: 0 0 20px 0;
+}
+
+.CardSearch-form label {
+    display:block;
+    margin: 10px 0 0 0;
+}
+
+.CardSearch-input {
+    border-bottom: 2px solid #cccccc;
+}
+
+.CardSearch-buttons {
+    margin-top: 10px;
+    display:inline-block;
+    width:100%;
+}
+
+.CardSearch-buttons button {
+    font-size:14px;
+    width:49%;
+    height:40px;
+    color:white;
+    border: 0;
+    cursor:'pointer'
+}
+
+.CardSearch-apply {
+    float:left;
+    border-radius:50px 0 0 50px;
+    background-color:#0275d8;
+}
+
+.CardSearch-reset {
+    float:right;
+    border-radius:0 50px 50px 0;
+    background-color:#d9534f;
+}
+
+.CardSearch-apply:hover {
+    background-color:#0088ff;
+}
+.CardSearch-reset:hover {
+    background-color:#ff6761;
+}
+
+
+@media (min-width: 767px) {
+    .CardSearch {
+        width:30%;
+    }
+
+    .CardSearch-form input {
+        display:block;
+        width:100%;
+        margin: 0 0 20px 0;
+    }
+    
+    .CardSearch-form select {
+        display:block;
+        width:100%;
+        margin: 0 0 20px 0;
+    }
+    
+    .CardSearch-form label {
+        display:block;
+        margin: 0 0 20px 0;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .CardSearch {
+        width:20%;
+    }
+  }
