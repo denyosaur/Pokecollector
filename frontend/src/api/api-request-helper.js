@@ -1,9 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = process.env.NODE_ENV === 'production' ? "https://pokecollector-be.herokuapp.com" : "http://localhost:3001"
+// const BASE_URL = process.env.NODE_ENV === 'production' ? "https://pokecollector-be.herokuapp.com" : "http://localhost:3001"
 
-
-//const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /* static method to handle general axios requests
 takes in the following:
