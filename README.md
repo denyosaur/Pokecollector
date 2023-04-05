@@ -2,7 +2,7 @@
 =====================================
 
 Mock ecommerce website that lets users purchase a handful of pokemon cards, and build decks. 
-https://pokecollector.herokuapp.com/
+https://pokecollector-frontend.onrender.com/
 
 **Purpose**
 ---------------
