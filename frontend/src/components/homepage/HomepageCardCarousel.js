@@ -52,7 +52,6 @@ const HomepageCardCarousel = ({ topic }) => {
 
     const moreInfo = (evt) => {
         const id = evt.target.getAttribute("data");
-
         setCardId(id);
     };
 

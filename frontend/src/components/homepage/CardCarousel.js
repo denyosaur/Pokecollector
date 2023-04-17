@@ -14,9 +14,9 @@ const CardCarousel = ({ cards, moreInfo, currentCardIndicesToShow }) => {
     }, [currentCardIndicesToShow, cards]);
 
     return <div className="CardCarousel">
-        {cards.length===0 && <div className="CardCarousel-loading">
-                <Loading/>
-            </div>}
+        {cards.length === 0 && <div className="CardCarousel-loading">
+            <Loading />
+        </div>}
         {cardsInCarousel.slice(currentCardIndicesToShow[0], currentCardIndicesToShow[1]).map(card => {
             return (
                 <div key={card.id} className="CardCarousel-card">
